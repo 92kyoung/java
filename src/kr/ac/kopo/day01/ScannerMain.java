@@ -7,20 +7,20 @@ public class ScannerMain {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-	    // ¾ÕÀÌ ´ë¹®ÀÚ·Î ½ÃÀÛÇÏ¸é ÂüÁ¶ º¯¼öÇüÀÌ°í ÂüÁ¶ º¯¼öÇüÀº StringÁ¦¿Ü ´Ù new¸¦ ½á¾ßÇÔ
+	    // ì•ì´ ëŒ€ë¬¸ìë¡œ ì‹œì‘í•˜ë©´ ì°¸ì¡° ë³€ìˆ˜í˜•ì´ê³  ì°¸ì¡° ë³€ìˆ˜í˜•ì€ Stringì œì™¸ ë‹¤ newë¥¼ ì¨ì•¼í•¨
 		
-		System.out.print("Á¤¼ö¸¦ ÇÏ³ª ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.print("ì •ìˆ˜ë¥¼ í•˜ë‚˜ ì…ë ¥í•˜ì„¸ìš”: ");
 		int a = sc.nextInt();
 		System.out.println("a:"+a);
 		
-		// next char string Àº ¾øÀ½ 
+		// next char string ì€ ì—†ìŒ 
 		
-		System.out.print("¹®ÀÚ¿­À» ÀÔ·Â:");
+		System.out.print("ë¬¸ìì—´ì„ ì…ë ¥:");
 		String str =sc.nextLine();
 		System.out.println("str: "+ str);
 		
 		//
-		System.out.print("¹®ÀÚ¸¦ ÀÔ·Â: ");
+		System.out.print("ë¬¸ìë¥¼ ì…ë ¥: ");
 		char ch =sc.nextLine().charAt(0);
 		System.out.println("ch: "+ ch);
 		
