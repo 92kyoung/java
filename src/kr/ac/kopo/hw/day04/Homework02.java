@@ -1,5 +1,5 @@
 package kr.ac.kopo.hw.day04;
-
+//4번문제
 import java.util.Scanner;
 
 public class Homework02 {
