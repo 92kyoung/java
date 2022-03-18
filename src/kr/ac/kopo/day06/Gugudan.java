@@ -19,9 +19,18 @@ public class Gugudan {
 		}
 	}
 	
-	void print() {
-		for(int dan=2; dan<=9; dan++) {
+	/**도큐메이션 추석
+	 * 파라미터로 날라온 시작단~종료단 사이의 구구단 출력 
+	 * @param start 시작단
+	 * @param end 종료단
+	 * 
+	 */
+	void print(int start, int end) {
+		for(int dan=start; dan<=end; dan++) {
 		print(dan);
 	}
+		
 }
+	
+//메소드 오버로딩 (같은 이름의 메소드지만 다른 파라미터를 가지고 있음)
 }
