@@ -29,7 +29,7 @@ public class Member {
  		this.bloodtype="알수없음";	
 	}
 	*/
-	//지역변수:갈색 멤버변수:파랑
+	//지역변수:갈색 멤버변수(필드):파랑
 	Member(String name, int age, String bloodtype){
 		//name= name; 멤버변수=지역번수 이렇게 되야되는데 지역변수=지역변수가 되서
 		// this.을 활용해서 지역변수를 멤버변수로 변경시켜줌
