@@ -5,9 +5,8 @@ import java.util.List;
 
 /*
    List: 순서 0 , 중복 0 하는 데이터의 집합
-    -ArrayList
-    -LinkedList
-    
+    - ArrayList
+    - LinkedList
     
     add()
     get()
@@ -16,7 +15,6 @@ import java.util.List;
     isEmpty()
     contains()
     clear()
-    
  */
 public class ListMain {
 	public static void main(String[] args) {
@@ -33,6 +31,7 @@ public class ListMain {
 		list.add("two"); //2번지에 two 저장
 		list.add("three");
 		list.add("four");
+		list.add("one");
 		
 		System.out.println("전체 원소의 개수: "+list.size()+"개");
 		
@@ -42,6 +41,12 @@ public class ListMain {
         	System.out.println(list.get(i));  //list의 i번지의 값 알려줘
         }
 		
+        System.out.println("one삭제 : "+ (list.remove("one") ? "성공":"실패")) ; //return 타입 boolean
+        System.out.println("one삭제 : "+ (list.remove("one") ? "성공":"실패")) ; //return 타입 boolean
+        System.out.println("one삭제 : "+ (list.remove("one") ? "성공":"실패")) ; //return 타입 boolean
+        
+        System.out.println();
+        
 		System.out.println("<1.5 버전>");
 		
 		
@@ -49,8 +54,10 @@ public class ListMain {
 			System.out.println(str);
 		}
 		
-		
-		
+	    System.out.println("0번지 문자열 : "+list.get(0));	
+	    System.out.println("0번지 위치한 문자열 삭제 문자열 : "+list.remove(0)); //삭제된 0번지 문자열 값이 리턴됨	
+	    System.out.println("0번지 문자열 : "+list.get(0));	
+			
 		/*
 		List list = new ArrayList (); //제너릭이 없으면 int쓸 수 있음
 		list.add(10);
