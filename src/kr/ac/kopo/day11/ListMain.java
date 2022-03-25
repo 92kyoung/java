@@ -32,7 +32,7 @@ public class ListMain {
 		list.add("three");
 		list.add("four");
 		list.add("one");
-		
+		list.add(2,"five");  //2번지에 five 추가 // 그럼 원래 2번지에 있던 값이 사라지는 것이 아니라 뒤로 밀려남
 		System.out.println("전체 원소의 개수: "+list.size()+"개");
 		
         System.out.println("< PRINT >");
